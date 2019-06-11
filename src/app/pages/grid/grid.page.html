@@ -1,0 +1,20 @@
+<app-header titulo="grid"></app-header>
+<ion-content padding="">
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let c of [1,1,1,1,1];">
+        <ion-card>
+          <ion-img src="https://picsum.photos/200/300?grayscale"></ion-img>
+          <ion-card-header>
+            <ion-card-subtitle>subtitulos</ion-card-subtitle>
+            <ion-card-title>carrr</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              Just add your desired image size (width & height) after our URL, and you'll get a random image.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

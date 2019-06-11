@@ -1,0 +1,17 @@
+<app-header titulo="{{nombre || 'Alert'}}"></app-header>
+
+<ion-content>
+    <ion-button expand="full" (click)="presentAlert()">Mostrar Alerta</ion-button>
+
+    <ion-item>
+        <ion-label>DateTime</ion-label>
+        <ion-datetime displayFormat="DD de MMMM del YYYY" pickerFormat="YYYY MMMM DD"
+        monthNames="Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+            <ion-label>Hora</ion-label>
+            <ion-datetime displayFormat="HH:mm:ss a" pickerFormat="hh mm ss a"></ion-datetime>
+        </ion-item>
+
+</ion-content>

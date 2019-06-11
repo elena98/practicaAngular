@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>avatar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-chip *ngFor="let item of [0,0,0,0,0,0,0,0,0,0,0]; let index= index" color="danger">
+    <ion-avatar>
+      <img src="assets/avatar.jpg">
+    </ion-avatar>
+    <ion-label>ion-chip {{index+1}}</ion-label>
+  </ion-chip>
+
+
+
+  <ion-list>
+    <ion-item *ngFor="let item of [0,0,0,0,0,0,0,0,0,0,0]; let index= index">
+      <ion-avatar slot="start">
+        <img src="assets/avatar.jpg">
+      </ion-avatar>
+      <ion-label>item</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
