@@ -1,0 +1,14 @@
+<app-header titulo="Navegacion"></app-header>
+
+<ion-content>
+  <ion-item padding>
+    <ion-input placeholder="Parametro"[(ngModel)]="valor">
+
+    </ion-input>
+
+  </ion-item>
+  <ion-button expand="full"[routerLink]="['/pop', 'valor']">
+    push
+  </ion-button>
+
+</ion-content>

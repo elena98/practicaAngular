@@ -46,8 +46,30 @@ export class InicioPage implements OnInit {
     nombre:'Infinite',
     icono:'infinite',
     url:'/infinite'
+  },
+  {
+    nombre:'Navegacion',
+    icono:'infinite',
+    url:'/navegacion'
+  },
+  {
+    nombre:'POPOVER',
+    icono:'infinite',
+    url:'/popover'
+  },
+  {
+    nombre:'Loading',
+    icono:'infinite',
+    url:'/loading'
+  },
+  {
+    nombre:'Range',
+    icono:'infinite',
+    url:'/range'
   }
 ];
+
+
 
   constructor() { }
 

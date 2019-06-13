@@ -14,6 +14,11 @@ const routes: Routes = [
   { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
   { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
   { path: 'infinite', loadChildren: './pages/infinite/infinite.module#InfinitePageModule' },
+  { path: 'navegacion', loadChildren: './pages/navegacion/navegacion.module#NavegacionPageModule' },
+  { path: 'pop/:id', loadChildren: './pages/pop/pop.module#PopPageModule' },
+  { path: 'popover', loadChildren: './pages/popover/popover.module#PopoverPageModule' },
+  { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' },
+  { path: 'range', loadChildren: './pages/range/range.module#RangePageModule' },
 ];
 
 @NgModule({
